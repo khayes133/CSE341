@@ -1,0 +1,21 @@
+{ "contacts": [ 
+{ 
+    "firstName" : "Peter",
+    "lastName" : "Smith",
+    "email" : "petessmith@smth.com",
+    "favoritecolor" : "purple"
+},
+{
+    "firstName" : "Maya",
+    "lastName" : "Goggin",
+    "email" : "mayah@smth.com",
+    "favoritecolor" : "orange"
+}, 
+{
+    "firstName" : "Lena",
+    "lastName" : "Goggin",
+    "email" : "lenah@smth.com",
+    "favoritecolor" : "yellow"
+}
+ ]
+ }
