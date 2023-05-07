@@ -1,4 +1,8 @@
-GET http://localhost:3000 HTTP/1.1
+GET http://localhost:8080 HTTP/1.1
+
+###
+GET http://localhost:8080/contacts HTTP/1.1
 
 ###
 GET https://cs341-9d3s.onrender.com HTTP/1.1 
+
