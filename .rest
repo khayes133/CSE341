@@ -85,15 +85,15 @@ content-type: application/json
 
 //Update Contact By ID
 ###
-PUT https://cs341-9d3s.onrender.com/contacts
+PUT https://cs341-9d3s.onrender.com/contacts/645359025e602893c3467ce4
 content-type: application/json
 
 {
-    "firstName":"Moroni",
-    "lastName":"Ortega",
-    "email":"ortega@gmail.com",
-    "favoriteColor":"Green",
-    "birthday":"06/19/2000"
+    "firstName":"Pete",
+    "lastName":"Smith",
+    "email":"petesmith@gmail.com",
+    "favoriteColor":"Purple",
+    "birthday":"01/01/1970"
 }
 
 //Delete Contact by ID
