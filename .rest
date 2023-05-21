@@ -1,31 +1,101 @@
 //Local Host
+//Week 1
 GET http://localhost:8080 
 
+//Week - 02 Display all contacts
 ###
 GET http://localhost:8080/contacts 
 
+//Display single contact by ID
 ###
 GET http://localhost:8080/contacts/645359025e602893c3467ce4
 
+//Display single contact by ID
 ###
 GET http://localhost:8080/contacts/645359025e602893c3467ce5
 
+//Display single contact by ID
 ###
 GET http://localhost:8080/contacts/645359025e602893c3467ce6
 
+////Week 03 Create Contact
+### 
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Valeriia",
+    "lastName":"Potter",
+    "email":"potter@test.com",
+    "favoriteColor":"Red",
+    "birthday":"06/10/1995"
+}
+
+//Update Contact By ID 
+###
+PUT  http://localhost:8080/contacts/645359025e602893c3467ce5
+content-type: application/json
+
+{
+    "firstName":"Maya",
+    "lastName":"Goggin",
+    "email":"maya@gmail.com",
+    "favoriteColor":"Yellow",
+    "birthday":"12/12/20"
+}
+
+//Delete Contact by ID 
+###
+DELETE http://localhost:8080/contacts/6469b85e27f3e2d6f2663fa4
 
 // Render API 
+
+//Week 01
 ###
 GET https://cs341-9d3s.onrender.com 
 
+//Week 02 - Display Contacts
 ###
 GET https://cs341-9d3s.onrender.com/contacts
 
+//Display Contact by ID
 ###
 GET https://cs341-9d3s.onrender.com/contacts/645359025e602893c3467ce4
 
+//Display Contact by ID
 ###
 GET https://cs341-9d3s.onrender.com/contacts/645359025e602893c3467ce5
 
+//Display Contact by ID
 ###
 GET https://cs341-9d3s.onrender.com/contacts/645359025e602893c3467ce6 
+
+//Week 03 Create Contact
+### 
+POST https://cs341-9d3s.onrender.com/contacts
+content-type: application/json
+
+{
+    "firstName":"Moroni",
+    "lastName":"Ortega",
+    "email":"ortega@test.com",
+    "favoriteColor":"Blue",
+    "birthday":"06/19/2000"
+}
+
+//Update Contact By ID
+###
+PUT https://cs341-9d3s.onrender.com/contacts
+content-type: application/json
+
+{
+    "firstName":"Moroni",
+    "lastName":"Ortega",
+    "email":"ortega@gmail.com",
+    "favoriteColor":"Green",
+    "birthday":"06/19/2000"
+}
+
+//Delete Contact by ID
+###
+DELETE https://cs341-9d3s.onrender.com/contacts/645359025e602893c3467ce6
